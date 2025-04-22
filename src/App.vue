@@ -11,7 +11,7 @@
           <a href="#contact" class="hover:text-emerald-600">Contact</a>
         </nav>
         <button @click="toggleMenu" class="md:hidden text-white">
-          ☰ Menu
+          ☰
         </button>
       </div>
       <div v-if="isMenuOpen" class="md:hidden mt-4 space-y-2">
